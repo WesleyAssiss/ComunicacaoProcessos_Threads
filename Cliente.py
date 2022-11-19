@@ -16,6 +16,4 @@ while mensagem != 'x':
     print("Mensagem recebida: ", str(recebido.decode()))
 cliente.close()
 
-    #mensagem = cliente.recv(1024)
-    #print("Mensagem recebida: ", mensagem.decode())
-    #cliente.close()
+   
