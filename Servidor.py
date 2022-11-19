@@ -26,9 +26,7 @@ def server():
     while True:
         cliente, endereco = servidor.accept()
         threading.Thread(target=cria_clientes, args=(cliente,endereco)).start()
-        #mensagem = input("Digite uma mensagem: ")
-        #cliente.send(mensagem.encode())
-        #cliente.close()
+       
 
 if __name__ == '__main__':
     PORTA = 15000
