@@ -29,7 +29,7 @@ def server():
        
 
 if __name__ == '__main__':
-    PORTA = 15000
+    PORTA = 14500
     servidor = socket.socket()
     servidor.bind(("localhost", PORTA))
     servidor.listen(5)
