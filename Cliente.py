@@ -2,7 +2,7 @@ import socket
 
 
 cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-cliente.connect(("localhost", 15000))
+cliente.connect(("localhost", 14500))
 mensagem = "Olá: "
 
 while mensagem != 'x':
